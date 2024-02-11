@@ -8,7 +8,7 @@ from sys import argv
 
 tosearch = argv[1]
 
-f= open('csv/sneakers.csv','w')
+f= open('csv/sneakers.csv','a')
 writer = csv.writer(f)
 
 url2 = 'https://www.nike.com/fr/w?q='+tosearch+'&vst='+tosearch
